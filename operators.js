@@ -1,6 +1,6 @@
 // Arithmetic -> Used to perform mathematical operations.
 
-// Increment -> Used to increase or decrease a value by one.
+// Increment / decrement -> Used to increase or decrease a value by one.
 // Postfix: a++ returns a then increments.
 // Prefix: ++a increments then returns new value.
 
