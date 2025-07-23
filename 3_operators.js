@@ -46,7 +46,7 @@
 // console.log(null === undefined);
 
 
-//let x = true;
+// let x = true;
 // let y = false;
 // console.log(x && y || !x);
 
@@ -71,5 +71,7 @@
 
 
 
+let num = undefined ?? 10;
+console.log(num);
 
 
