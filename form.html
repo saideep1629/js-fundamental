@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="myForm" style="margin-top: 100px;">
+      <input type="text" placeholder="Enter something" required />
+      <button type="submit">Submit</button>
+    </form>
+    <script>
+      document
+        .getElementById("myForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault(); // Stops page from refreshing
+          alert("Form submitted!");
+        });
+    </script>
+  </body>
+</html>
+
